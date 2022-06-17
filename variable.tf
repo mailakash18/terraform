@@ -1,8 +1,5 @@
 variable "instance_type" {
-  type = map(string)
-  default = {
-
-    prod = "t2.large"
+  default = "t2.large"
 
   }
 }
